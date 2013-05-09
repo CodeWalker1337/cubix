@@ -68,16 +68,24 @@ public class Cubix
 	/** Gameover screen Obj */
 	public static GuiScreen gameOverScreen;
 
+	/** Gui Button for the play button in the main menu */
 	public static GuiButton buttonPlay;
+	/** Gui Button for the options button in the main menu */
 	public static GuiButton buttonOptions;
+	/** Gui Button Switch for the difficulty in the options menu */
 	public static GuiSwitchDifficultyButton buttonDifficulty;
+	/** Gui Button for the back to menu button in the options menu */
 	public static GuiButton buttonOptionsBack;
+	/** Volume slider */
 	public static GuiSliderBase volumeSlider;
 
+	/** An object of the SoundSystem class */
 	public static SoundSystem soundSys = new SoundSystem();
 
+	/** Score that is to be displayed at the top of the screen */
 	public static int score = 0;
 
+	/** The current state of the game */
 	public static GameState gameState = GameState.MAIN_MENU;
 
 	public Cubix()
@@ -87,6 +95,10 @@ public class Cubix
 		// TODO: Write power ups code
 		// TODO: Add More Options
 		// TODO: Add Cheats
+		// TODO: Add Levels
+		// TODO: Add Goals
+		// TODO: Add shop
+		// TODO: Remove powerups
 
 		initDisplay();
 		initOpenGL();
