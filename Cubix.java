@@ -53,7 +53,7 @@ public class Cubix
 	public static final int HEIGHT = 600;
 
 	/** The version of the Game */
-	public static final String version = "v1.42 ALPHA";
+	public static final String version = "v1.43 ALPHA";
 
 	/** The final declaration of the player */
 	public static EntitiyPlayer player;
